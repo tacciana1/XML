@@ -1,1 +1,11 @@
+<?xml version="1.0"?>
+<bug_report>
+  <summary>An informative error message is not displayed on the registration page after entering invalid data.</summary>
+  <STR>1. Open the site: https://example.com
+2. Open the registration page.
+3. Enter invalid data into the required fields (e-mail without domain and three character password instead of six).
+4. Pay attention to the lack of informative error messages.</STR>
+  <Actual result>An informative message is not displayed on the registration page after entering invalid data.</Actual result>
+  <Expected result>An error message is shown to the visitor after entering invalid data into the required fields.</Expected result>
+ </bug_report>
 
